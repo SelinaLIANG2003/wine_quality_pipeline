@@ -6,4 +6,4 @@ def load_data(path):
     return df
 
 if __name__ == "__main__":
-    print("load_data module ready")
+    df = load_data("../data/winequality-red.csv")
